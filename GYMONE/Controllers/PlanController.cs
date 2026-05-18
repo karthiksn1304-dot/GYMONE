@@ -12,7 +12,7 @@ namespace GYMONE.Controllers
     
     [MyExceptionHandler]
     [Authorize(Roles = "Admin")]
-    public class PlanController : Controller
+    public class PlanController : Controller   // GET: /Plan/
     {
         IPlanMaster objIPlanMaster;
         ISchemeMaster objscheme;
